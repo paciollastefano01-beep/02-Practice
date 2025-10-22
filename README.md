@@ -110,9 +110,10 @@ Se stai iniziando anche tu questo percorso:
 
 Se hai feedback, suggerimenti o vuoi connetterti:
 
-- 💼 LinkedIn: [Stefano Paciolla](https://linkedin.com/in/tuo-profilo) *(aggiorna con tuo link)*
+-- 📧 Email: [paciollastefano01@gmail.com](mailto:paciollastefano01@gmail.com)
+- 💼 LinkedIn: [www.linkedin.com/in/stefano-paciolla-561519209](https://www.linkedin.com/in/stefano-paciolla-561519209)
 - 🐙 GitHub: [@paciollastefano01-beep](https://github.com/paciollastefano01-beep)
-- 📧 Email: *(se vuoi condividerla)*
+
 
 ---
 

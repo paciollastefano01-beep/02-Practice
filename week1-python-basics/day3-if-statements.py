@@ -139,3 +139,30 @@ if username == "admin" and (password == "python123") and not bloccato == "si":
     print("ACCESSO CONSENTITO!")
 else:
     print("ACCESSO NEGATO!")
+
+# Pattern: Validazione range
+
+print("\n=== REGISTRAZIONE ===")
+
+eta = int(input("Età: "))
+
+# Controlla range valido (1-120)
+
+if eta <1 or eta > 120:
+    print("❌ Errore: Età non valida!")
+    print("Deve essere tra 1 e 120 anni")
+else:
+    print(f"✅ Età {eta} registrata!")
+
+if eta >= 18:
+    print("Maggiorenne")
+else:
+    print("Minorenne")
+
+if 1 <= eta >= 120:
+    print("Età Valida!")
+else:
+    print("Eà non valida")
+                            
+
+

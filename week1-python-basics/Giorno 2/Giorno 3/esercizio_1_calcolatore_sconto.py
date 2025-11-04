@@ -27,8 +27,15 @@ if premium_norm == "si":
 # calcolo sconto totale e operazione per calcolare importo prodotto scontato
 
 sconto_totale = sconto_base + sconto_domenica + sconto_premium
+sconto_in_euro = importo * sconto_totale
 totale = importo * (1 - sconto_totale)
 
 # stampo il risultato
 
-print(f"Totale da pagare: {totale:.2f}")
+print("===== RIEPILOGO SCONTI =====")
+print(f"Importo iniziale: €{importo:.2f}")
+print(f"Sconto base: {sconto_base * 100:.0f}%")
+print(f"Sconto extra domenica: €{sconto_domenica * 100:.0f}%")
+print(f"Sconto extra cliente premium: €{sconto_premium * 100:.0f}%")
+print(f"Sconto totale ({sconto_totale * 100:.0f}%) = €{sconto_in_euro:.2f}")
+print(f"Totale da pagare: €{totale:.2f}")

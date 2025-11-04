@@ -15,3 +15,5 @@ elif stanchezza == "si" and fame == "si" and budget > 20:
     print("Potresti ordinare qualcosa da mangiare su just eat")
 elif (fame == "si" or stanchezza == "si") and budget < 20:
     print("Potresti leggerti un bel libro!")
+else:
+    print("Fai quello che ti senti! Ascolta il tuo istinto.")

@@ -12,7 +12,7 @@ sconto_base = 0.0
 if importo > 100:
     sconto_base = 0.20
 elif importo > 50:
-    sconto_base = 0.20
+    sconto_base = 0.10
 else:
     sconto_base = 0.0
 

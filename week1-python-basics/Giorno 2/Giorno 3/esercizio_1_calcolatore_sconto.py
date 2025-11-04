@@ -11,7 +11,7 @@ premium_norm = premium.strip().lower()
 sconto_base = 0.0
 if importo > 100:
     sconto_base = 0.20
-elif sconto_base > 50:
+elif importo > 50:
     sconto_base = 0.20
 else:
     sconto_base = 0.0
@@ -35,7 +35,7 @@ totale = importo * (1 - sconto_totale)
 print("===== RIEPILOGO SCONTI =====")
 print(f"Importo iniziale: €{importo:.2f}")
 print(f"Sconto base: {sconto_base * 100:.0f}%")
-print(f"Sconto extra domenica: €{sconto_domenica * 100:.0f}%")
-print(f"Sconto extra cliente premium: €{sconto_premium * 100:.0f}%")
+print(f"Sconto extra domenica: {sconto_domenica * 100:.0f}%")
+print(f"Sconto extra cliente premium: {sconto_premium * 100:.0f}%")
 print(f"Sconto totale ({sconto_totale * 100:.0f}%) = €{sconto_in_euro:.2f}")
 print(f"Totale da pagare: €{totale:.2f}")

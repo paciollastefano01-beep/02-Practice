@@ -13,7 +13,7 @@ classe_volo = input("Classe? (economy/business/first): ").strip().lower()
 è_studente = input("Sei studente? (si/no): ").strip().lower()
 ha_carta_fedeltà = input("Hai carta fedeltà? (si/no): ").strip().lower()
 bagaglio_kg = float(input("Peso Bagaglio in kg? "))
-è_militare = input("Sei militare? ")
+è_militare = input("Sei militare? ").strip().lower()
 
 ha_passaporto_ok = ha_passaporto == "si"
 è_vaccinato_ok = è_vaccinato == "si"
@@ -74,20 +74,21 @@ else:
 
     prezzo_finale = prezzo_base_scontato + prezzo_bagaglio
 
-
-print("=========================")
-print("SISTEMA PRENOTAZIONE VOLO")
-print("=========================")
-print("✅ Puoi volare: tutti i requisiti sono rispettati.")
-print(f"Classe finale volo: {classe_volo}")
-print(f"Prezzo Base Volo:  €{prezzo_base}")
-if prezzo_base_scontato != prezzo_base:
-    print(f"Prezzo Base Scontato: €{prezzo_base_scontato}")
-else:
-    print("Nessuno Sconto applicabile")
-print(f"Costo del bagaglio: €{prezzo_bagaglio} ")
-print(f"Prezzo Finale:  €{prezzo_finale}")
-print("\n=========================")
-print("BUON VIAGGIO")
-print("GRAZIE PER AVERCI SCELTO")
-print("=========================")
+    print("=========================")
+    print("SISTEMA PRENOTAZIONE VOLO")
+    print("=========================")
+    print("")
+    print("✅ Puoi volare: tutti i requisiti sono rispettati.")
+    print(f"Classe finale volo: {classe_volo}")
+    print(f"Prezzo Base Volo:  €{prezzo_base}")
+    if prezzo_base_scontato != prezzo_base:
+        print(f"Prezzo Base Scontato: €{prezzo_base_scontato}")
+    else:
+        print("Nessuno Sconto applicabile")
+    print(f"Costo del bagaglio: €{prezzo_bagaglio}")
+    print(f"Prezzo Finale:  €{prezzo_finale}")
+    print("")
+    print("\n=========================")
+    print("BUON VIAGGIO")
+    print("GRAZIE PER AVERCI SCELTO")
+    print("=========================")

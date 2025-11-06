@@ -36,3 +36,17 @@ while risposta != "si" and risposta != "no":
         print("❌ Per favore, rispondi solo 'si' o 'no'")
 
 print(f"Hai risposto: {risposta}")
+
+# Metodo 1: Inizializzare con valore impossibile
+numero = 0
+
+while numero < 1 or numero > 10:
+    numero = int(input("Inserisci numero da 1 a 10: "))
+
+    if numero < 1:
+        print("❌ Troppo piccolo!")
+    elif numero > 10:
+        print("❌ Troppo grande!")
+# Se è nel range, non stampa nulla e esce
+
+print(f"✅ Numero valido: {numero}")

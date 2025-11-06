@@ -1,4 +1,4 @@
-#sistema di prenotazione volo completo
+# sistema di prenotazione volo completo
 
 eta_passeggero = int(input("Quanti anni hai? "))
 if eta_passeggero < 18:
@@ -91,6 +91,3 @@ print("\n=========================")
 print("BUON VIAGGIO")
 print("GRAZIE PER AVERCI SCELTO")
 print("=========================")
-
-
-

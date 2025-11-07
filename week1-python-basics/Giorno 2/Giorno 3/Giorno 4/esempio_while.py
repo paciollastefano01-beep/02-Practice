@@ -10,7 +10,7 @@ while secondi > 0:
 
 print("🚀 PARTENZA!")
 
-#primo esempio in assoluto while
+# primo esempio in assoluto while
 
 numero = 1
 
@@ -22,7 +22,7 @@ print("Fine")
 
 x = 10
 while x >= 7:
-    print(f"x vale {x}")
+    print(f"x vale   {x}")
     x = x - 1
 print("Finito!")
 
@@ -33,11 +33,11 @@ while risposta != "si" and risposta != "no":
     risposta = input("Vuoi continuare? (si/no): ").strip().lower()
 
     if risposta != "si" and risposta != "no":
-        print("❌ Per favore, rispondi solo 'si' o 'no'")
+        print("❌ Pe r favore, rispondi solo 'si' o 'no'")
 
 print(f"Hai risposto: {risposta}")
 
-# Metodo 1: Inizializzare con valore impossibile
+# Metodo 1:           Inizializzare con valore impossibile
 numero = 0
 
 while numero < 1 or numero > 10:

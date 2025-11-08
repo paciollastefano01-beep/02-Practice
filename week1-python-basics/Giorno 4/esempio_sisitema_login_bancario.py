@@ -34,4 +34,3 @@ if accesso_consentito:
     print("Saldo: €1,234.56")
 else:
     print("\nAccesso negato.")
-

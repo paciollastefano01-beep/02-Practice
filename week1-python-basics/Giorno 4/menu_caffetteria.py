@@ -32,4 +32,4 @@ while True:
         break
     else:
         print("Scelta non valida!")
-        print("\nPer favore scegli un numero tra 1 e 5")
+        print("\nPer favore scegli un numero compreso tra 1 e 5")

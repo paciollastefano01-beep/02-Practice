@@ -50,3 +50,4 @@ while numero < 1 or numero > 10:
 # Se è nel range, non stampa nulla e esce
 
 print(f"✅ Numero valido: {numero}")
+

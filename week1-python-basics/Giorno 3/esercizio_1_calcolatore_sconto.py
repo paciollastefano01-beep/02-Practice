@@ -39,3 +39,4 @@ print(f"Sconto extra domenica: {sconto_domenica * 100:.0f}%")
 print(f"Sconto extra cliente premium: {sconto_premium * 100:.0f}%")
 print(f"Sconto totale ({sconto_totale * 100:.0f}%) = €{sconto_in_euro:.2f}")
 print(f"Totale da pagare: €{totale:.2f}")
+

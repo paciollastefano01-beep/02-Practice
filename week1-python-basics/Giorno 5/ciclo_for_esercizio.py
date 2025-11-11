@@ -23,3 +23,4 @@ for x in range(0, 10, 3):
 parola = "ciao"
 for lettera in parola:
     print(lettera)
+

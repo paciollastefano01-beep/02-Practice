@@ -6,9 +6,8 @@ for i in range(1, 11):  # da 1 a 10
     print(f"2 x {i} = {risultato}")
 
 tabellina = input("Quale tabellina vuoi? ")
-tabellina = int(tabellina)
 print(f"\nTABELLINA DEL {tabellina}")
 print("-" * 15)
 for i in range(1, 11):
-    risultato = tabellina * i
+    risultato = int(tabellina) * i
     print(f"{tabellina} x {i} = {risultato}")

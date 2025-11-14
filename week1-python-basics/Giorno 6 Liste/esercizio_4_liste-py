@@ -1,0 +1,25 @@
+# Esercizio 4 Conta pari e dispari
+
+numeri = []
+print("=" * 40)
+print("Ti chiederò 6 numeri adesso")
+print("Per ognuno ti dirò se è pari o dispari")
+print("=" * 40)
+
+for i in range(6):
+    numeri_utente = int(input(f"\nNumero {i + 1}: "))
+    numeri.append(numeri_utente)
+
+pari = 0
+dispari = 0
+
+for numero_presente in numeri:
+    if numero_presente % 2 == 0:
+        pari = pari + 1
+    else:
+        dispari = dispari + 1
+
+print("=" * 40)
+print(f"I numeri pari sono: {pari}")
+print(f"I numeri dispari sono: {dispari} ")
+print("=" * 40)

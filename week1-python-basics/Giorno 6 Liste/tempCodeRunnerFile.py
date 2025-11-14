@@ -1,0 +1,1 @@
+quantita = int(input("Quanti numeri vuoi analizzare? "))

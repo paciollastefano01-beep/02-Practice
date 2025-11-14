@@ -8,3 +8,4 @@ for i in range(quantita):
 
 for i in range(len(lista)):
     print(f"Numero {i + 1}: {lista[i]}")
+print(f"\nLista completa: {lista}")
